@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Circle circle = new Circle(7.42);            
-            Square square = new Square(6.30);            
-            Rectangle rectangle = new Rectangle(5.5,9.3);            
-            Triangle triangle = new Triangle(2.4,10,9.4);
+            Circle circle = new Circle();            
+            Square square = new Square();            
+            Rectangle rectangle = new Rectangle();            
+            Triangle triangle = new Triangle();
             Console.WriteLine($"Area of the circle is: {circle.Area()}" +
                 $"\nArea of the square is: {square.Area()}" +
                 $"\nArea of the rectangle is: {rectangle.Area()}" +

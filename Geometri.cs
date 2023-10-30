@@ -19,10 +19,10 @@ namespace Labb_3___Polymorphsim
     {
         public double _length { get; set; }
         public double _width { get; set; }
-        public Rectangle(double length, double width)
+        public Rectangle()
         {
-            _length = length;
-            _width = width;
+            _length = 4;
+            _width = 7.5;
         }
         public override double Area()
         {
@@ -32,9 +32,9 @@ namespace Labb_3___Polymorphsim
     public class Circle : Geometry
     {
         public double _radius { get; set; }
-        public Circle(double radius)
+        public Circle()
         {
-            _radius = radius;
+            _radius = 6.8;
         }
         public override double Area()
         {
@@ -44,9 +44,9 @@ namespace Labb_3___Polymorphsim
     public class Square : Geometry
     {
         public double _side { get; set; }
-        public Square (double side)
+        public Square ()
         {
-            _side = side;
+            _side = 7.9;
         }
         public override double Area()
         {
@@ -58,11 +58,11 @@ namespace Labb_3___Polymorphsim
         public double _sideA { get; set; }
         public double _sideB { get; set; }
         public double _sideC { get; set; }
-        public Triangle(double sideA,double sideB, double sideC)
+        public Triangle()
         {
-            _sideA = sideA;
-            _sideB = sideB;
-            _sideC = sideC;
+            _sideA = 7.3;
+            _sideB = 6;
+            _sideC = 14.9;
         }
         public override double Area()
         {
