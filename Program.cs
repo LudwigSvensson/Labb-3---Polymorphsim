@@ -4,15 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Circle circle = new Circle();            
-            Square square = new Square();            
-            Rectangle rectangle = new Rectangle();            
-            Triangle triangle = new Triangle();
+            Geometry circle = new Circle();            
+            Geometry square = new Square();            
+            Geometry rectangle = new Rectangle();            
+            Geometry triangle = new Triangle();
+
             Console.WriteLine($"Area of the circle is: {circle.Area()}" +
                 $"\nArea of the square is: {square.Area()}" +
                 $"\nArea of the rectangle is: {rectangle.Area()}" +
                 $"\nArea of the rectangle is: {triangle.Area()}");
-
         }
     }
 }
